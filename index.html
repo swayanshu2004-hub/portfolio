@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swayanshu Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+
+        <a href="#" class="logo">Swayanshu</a>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#contact">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- Home Section -->
+    <section class="home" id="home">
+
+        <div class="home-img">
+            <img src="image/profile.jpg" alt="Profile">
+        </div>
+
+        <div class="home-content">
+
+            <h1>Hi, I'm <span>Swayanshu</span></h1>
+
+            <h3><span id="typing"></span></h3>
+
+            <p>
+                MCA 2nd Year Student passionate about Java Development, Spring Boot, SQL and Web Development. I love building real-world projects and continuously learning new technologies.
+            </p>
+
+            <div class="social-icons">
+
+                <a href="https://github.com/swayanshu2004-hub" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://www.linkedin.com/in/swayanshu-satyapragyan-sahoo-b13a53369/" target="_blank">
+                    <i class="fab fa-linkedin"></i>
+                </a>
+
+                <a href="mailto:swayanshu2004@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+            <a href="swayanshu.pdf" class="btn" download>Download Resume</a>
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section class="about" id="about">
+
+        <div class="about-img">
+            <img src="image/profile.jpg" alt="About Me">
+        </div>
+
+        <div class="about-content">
+
+            <h2>About <span>Me</span></h2>
+
+            <h3>Java Developer & MCA Student</h3>
+
+            <p>
+                Hello! I'm <b>Swayanshu Satyapragyan Sahoo</b>, an MCA 2nd Year student passionate about Java Development, Spring Boot, SQL and Web Development. I enjoy solving real-world problems by building practical projects and continuously learning
+                modern technologies.
+            </p>
+
+            <p>
+                Currently, I am focusing on Java, Spring Boot, SQL, HTML, CSS, JavaScript, Git & GitHub while preparing for software development internships and full-time opportunities.
+            </p>
+
+            <a href="#projects" class="btn">View Projects</a>
+
+        </div>
+
+    </section>
+
+    <!-- Skills Section -->
+    <section class="skills" id="skills">
+
+        <h2 class="heading">My <span>Skills</span></h2>
+
+        <div class="skills-container">
+
+            <div class="skill">
+                <h3>Java <span>90%</span></h3>
+                <div class="bar">
+                    <span class="java"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>SQL <span>85%</span></h3>
+                <div class="bar">
+                    <span class="sql"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>HTML <span>90%</span></h3>
+                <div class="bar">
+                    <span class="html"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>CSS <span>85%</span></h3>
+                <div class="bar">
+                    <span class="css"></span>
+                </div>
+            </div>
+
+            <div class="skill">
+                <h3>JavaScript <span>70%</span></h3>
+                <div class="bar">
+                    <span class="js"></span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+
+        <h2 class="heading">My <span>Projects</span></h2>
+
+        <div class="projects-container">
+
+            <div class="project-card">
+                <h3>Student Management System</h3>
+
+                <p>
+                    Java + MySQL CRUD application to manage student records.
+                </p>
+
+                <div class="project-links">
+                    <a href="YOUR_GITHUB_LINK" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Portfolio Website</h3>
+
+                <p>
+                    Responsive personal portfolio built using HTML, CSS and JavaScript.
+                </p>
+
+                <div class="project-links">
+                    <a href="YOUR_PORTFOLIO_GITHUB_LINK" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <h3>Library Management System</h3>
+
+                <p>
+                    SQL database project for managing books, students and issue records.
+                </p>
+
+                <div class="project-links">
+                    <a href="YOUR_GITHUB_LINK" target="_blank">GitHub</a>
+                    <a href="#" target="_blank">Live Demo</a>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+
+        <h2 class="heading">Contact <span>Me</span></h2>
+
+        <form action="https://formsubmit.co/swayanshu2004@gmail.com" method="POST" accept-charset="UTF-8"></form>
+        <input type="hidden" name="_captcha" value="false">
+        <input type="hidden" name="_template" value="table">
+        <input type="hidden" name="_subject" value="New Portfolio Contact">
+
+        <div class="input-box">
+            <input type="text" name="name" placeholder="Your Name" required>
+
+            <input type="email" name="email" placeholder="Your Email" required>
+        </div>
+
+        <textarea name="message" rows="6" placeholder="Your Message" required></textarea>
+
+        <button type="submit" class="btn">
+                Send Message
+            </button>
+
+        </form>
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
