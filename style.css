@@ -287,10 +287,10 @@ nav a.active {
 /* Project Cards */
 
 .projects-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(2, 320px);
     justify-content: center;
     gap: 30px;
-    flex-wrap: wrap;
 }
 
 .project-card {
@@ -301,6 +301,10 @@ nav a.active {
     text-align: center;
     border: 2px solid transparent;
     transition: .4s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 420px;
 }
 
 .project-card:hover {
